@@ -45,7 +45,6 @@ h1, h2, h2, h4 {
   margin-bottom: .5rem;
   line-height: 1.3;
 }
-/* Utility */
 .bg-dark {
   background: var(--dark-color);
   color: #fff;
