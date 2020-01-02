@@ -111,8 +111,10 @@
       <div>
         <h2>Email newsLetter</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, nulla!</p>
-        <input type="email" name="email" id="email" width=100% placeholder="Enter Email">
-        <a class="btn btn-primary btn-block" href="#">Subscribe</a>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="email" name="email"  style="width: 100%; padding: .3rem;"  placeholder="Enter Email">
+          <input type="submit" value="Subscribe" class="btn btn-primary btn-block" style="border: none; margin-top: 1rem;" >
+        </form>
       </div>
       <div>
         <h2>site links</h2>
