@@ -31,9 +31,10 @@
   }
 
   .container-footer >*:nth-child(1),
-  .container-footer >*:nth-child(2)
+  .container-footer >*:nth-child(2),
+  .container-footer >*:nth-child(3)
   {
-    border-bottom: 1px #111 dotted; 
+    border-bottom: 1px white dotted; 
     padding-bottom: 1rem;
 
   }

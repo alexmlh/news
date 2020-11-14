@@ -85,10 +85,10 @@ h1, h2, h2, h4 {
 
 
 .category {
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   display: inline-block;
-  padding:  .3rem 0.7rem ;
+  padding:  .4rem 0.7rem ;
   color: white;
   border-radius: 1rem;
   margin: .6rem 0;
@@ -123,17 +123,16 @@ h1, h2, h2, h4 {
 
 .container {
   max-width: var(--max-width);
-  max-width: 1100px;
   margin: auto;
   padding: 1rem;
   overflow: hidden;
   background: white;
-  position: sticky;
-  z-index: 2;
-  top: 0px;
+  /* position: sticky; */
+  /* z-index: 2; */
+  /* top: 0px; */
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  position: relative;
+  /* position: relative; */
   align-items: center;
 }
 .container img {
@@ -187,7 +186,7 @@ h1, h2, h2, h4 {
   flex-direction: column;
   max-width: 500px;
   color: white;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: start;
 }
 /* .show-container item  */
@@ -197,9 +196,12 @@ h1, h2, h2, h4 {
 }
 
 .container-ar {
-  max-width: 1100px;
+  max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 #home-articles > h2 {
@@ -211,24 +213,20 @@ h1, h2, h2, h4 {
   padding: 1rem;
 }
 
-.container-ar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-}
 .card:nth-child(1) {
   grid-column: 1 /span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   align-items: center;
-  
+  background-color: #c72727;  
 }
 .card:nth-child(7) {
   align-items: center;
   grid-gap: 1rem;
   grid-column: 2 /span 2;
   display: grid;
+  grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -252,14 +250,13 @@ footer {
 .container-ft {
   max-width: 1100px;
   padding: 1rem;
-  /* padding-right: 3rem; */
   margin: auto;
 }
 
 .container-footer {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,auto);
+  /* grid-template-rows: repeat(2,auto); */
   grid-gap: 1rem;
 }
 
@@ -295,6 +292,12 @@ footer {
   border-radius: 2px;
 }
 
+.container-about {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
 .about-info  {
   display: grid;
   grid-gap: 1.5rem;
@@ -302,7 +305,7 @@ footer {
 }
 
 .art{
-  grid-row: 1 / spam 3;
+  grid-row: 1 / spam 4;
 }
 
 .about-info .art {
@@ -310,7 +313,7 @@ footer {
 }
 
 .join  {
-  color: white;
+  /* color: white; */
   padding: 1rem;
 }
 .join * {
@@ -319,11 +322,6 @@ footer {
 
 .about-info  h1 {
   font-size: 3rem;
-}
-.container-about {
-  max-width: 1100px;
-  margin: auto;
-  padding: 2rem;
 }
 .autor {
   padding: .5rem;
