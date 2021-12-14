@@ -129,6 +129,7 @@ h1, h2, h2, h4 {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   align-items: center;
+  justify-content: center;
 }
 .container img {
   width: 180px;
