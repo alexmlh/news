@@ -1,7 +1,7 @@
 News App
 ========
 
-This is a React-based News App that allows users to browse and read the latest news articles.
+This is a  News App that allows users to browse and read the latest news articles.
 
 Features
 --------
@@ -11,7 +11,6 @@ Features
 
 Technologies Used
 -----------------
-- React.js
 - JavaScript
 - CSS
 - News API integration
